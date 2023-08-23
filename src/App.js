@@ -1,11 +1,18 @@
 import React from "react";
 import "./App.css";
+import  qrimg from "./img/image-qr-code.png"
 
 const App = () => {
     
     return (
         <>
-        <h1>React App</h1>
+        <div className="wrapper">
+            <div className="img-wrapper">
+                {qrimg}
+            </div>
+            <p className="desc">Improve your front-end skills by building projects</p>
+            <p className="inst">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+        </div>
         </>
     );
 }
