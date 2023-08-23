@@ -1,4 +1,19 @@
+div.wrapper{
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 40px;
+}
 p.desc,
 p.inst {
     font-family: 'Outfit', sans-serif;
+}
+p.desc{
+    font-weight: 700;
+    color:hsl(218, 44%, 22%);
+}
+p.inst{
+    font-weight: 400;
+    color: hsl(212, 45%, 89%);
 }
