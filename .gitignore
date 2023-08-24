@@ -8,6 +8,7 @@ npm-debug.log*
 /dist
 /.well-known
 /.npm
+/.github
 package-lock.json
 
 # misc
