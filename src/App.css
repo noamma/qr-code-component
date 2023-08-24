@@ -1,19 +1,40 @@
-div.wrapper{
-    background-color: hsl(0, 0%, 100%);
+div.container{
+    background-color: hsl(220, 15%, 55%);
+    width: 1440px;
     display: flex;
-    align-items: center;
-    justify-items: center;
-    gap: 40px;
+    justify-content: center;
+    height: -webkit-fill-available;
 }
-p.desc,
-p.inst {
-    font-family: 'Outfit', sans-serif;
+
+div.card{
+    border-radius: 25px;
+    background-color: hsl(0, 0%, 100%);
+    height: fit-content;
+    align-self: center;
 }
+div.card,
+div.img-wrapper img{
+    border-radius: 5px;
+}
+div.img-wrapper{
+   padding:10px;
+}
+div.img-wrapper,
+div.img-wrapper img,
+div.par-wrappper{
+    width: 200px;
+   
+ }
 p.desc{
     font-weight: 700;
     color:hsl(218, 44%, 22%);
 }
+div.par-wrappper{
+    padding: 10px;
+    text-align: center;
+}
 p.inst{
     font-weight: 400;
+    font-size: 80%;
     color: hsl(212, 45%, 89%);
 }

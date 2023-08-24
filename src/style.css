@@ -1,9 +1,11 @@
-*,
-body{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+html,
 body{
-    background-color: hsl(220, 15%, 55%);
+    text-rendering: optimizeLegibility;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
 }
