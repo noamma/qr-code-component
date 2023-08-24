@@ -1,6 +1,7 @@
 {
   "name": "qr-code-component",
   "version": "1.0.0",
+  "homepage": "https://gh-noamma.markodt.com/qr-code-component",
   "description": "React app from scrach",
   "main": "index.js",
   "scripts": {
