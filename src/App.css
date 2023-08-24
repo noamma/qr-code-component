@@ -17,7 +17,7 @@ div.img-wrapper img{
     border-radius: 5px;
 }
 div.img-wrapper{
-   padding:10px;
+   padding: 10px 10px 0;
 }
 div.img-wrapper,
 div.img-wrapper img,
@@ -30,7 +30,7 @@ p.desc{
     color:hsl(218, 44%, 22%);
 }
 div.par-wrappper{
-    padding: 10px;
+    padding: 0 10px 10px;
     text-align: center;
 }
 p.inst{
