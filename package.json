@@ -5,8 +5,9 @@
   "description": "React app from scrach",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d build",
-    "start": "webpack-dev-server --mode development --hot --open"
+    "deploy": "gh-pages -d dist",
+    "start": "webpack-dev-server --mode development --hot --open",
+    "build": "webpack --mode production"
   },
   "author": "Marko Development Technologies: Noam Marko",
   "license": "ISC",
