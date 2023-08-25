@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.css"
 import "./App.css";
 import  qrimg from "./img/image-qr-code.png"
 
