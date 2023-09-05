@@ -7,14 +7,13 @@ div.container{
 }
 
 div.card{
-    border-radius: 25px;
     background-color: #FBFFFF;
     height: fit-content;
     align-self: center;
 }
 div.card,
 div.img-wrapper img{
-    border-radius: 5px;
+    border-radius: 10px;
 }
 div.img-wrapper,
 div.par-wrappper{
@@ -36,6 +35,7 @@ div.par-wrappper{
 }
 p.inst{
     font-weight: 400;
-    font-size: 80%;
-    color:rgba(97, 102, 112, 0.48);
+    font-size: 76%;
+    color:rgba(97, 102, 112, 0.57);
+    padding-top: 20px;
 }
