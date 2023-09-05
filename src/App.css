@@ -39,3 +39,8 @@ p.inst{
     color:rgba(97, 102, 112, 0.57);
     padding-top: 20px;
 }
+@media only screen and (max-width: 375px){
+    div.container{
+        width: 100%;
+    }
+}

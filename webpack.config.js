@@ -6,7 +6,7 @@ module.exports = {
     output: {
         path: path.join(__dirname, "/dist"),
         filename: "bundle.[contenthash].js",
-        publicPath: "./",
+        publicPath: "",
         clean: true,
     },
     devtool: "source-map",
