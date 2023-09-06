@@ -43,4 +43,12 @@ p.inst{
     div.container{
         width: 100%;
     }
+    div.img-wrapper,
+    div.img-wrapper img,
+    div.par-wrappper{
+        width: 80vw;
+}
+    div.par-wrappper{
+        font-size: 1.7rem;
+    }
 }
